@@ -20,7 +20,7 @@ Weather is a modern web application to check detailed weather information anywhe
 
 The Weather App is deployed on **Vercel**. You can access the live demo here:
 
-[Demo](https://weather-app.vercel.app)
+[Demo](https://weather-app-bay-seven-21.vercel.app/)
 
 ---
 
