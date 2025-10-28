@@ -1,37 +1,42 @@
-# Weather App 🌤️
+# 🌤️ Weather App
 
-Weather is a modern web application to check detailed weather information anywhere in the world. The app uses the [OpenWeather API](https://openweathermap.org/api) and provides an interactive interface to search and view weather data.
-
----
-
-## 🚀 Features
-
-- **City search:** Search any city worldwide to get its current weather.
-- **Weather details:** Displays temperature, humidity, wind, chance of rain, and more.
-- **Interactive UI:** Built with [Radix UI](https://www.radix-ui.com/) components and Tailwind animations.
-- **Themes & animations:** Supports dark/light mode with smooth animations using `tailwindcss-animate`.
-- **Form validation:** Uses `react-hook-form` and `zod` for robust form handling.
-- **Data charts:** Visualize weather trends with `recharts`.
-- **Notifications:** Alerts integrated via `sonner`.
+A modern and interactive **weather forecast app** powered by the [OpenWeather API](https://openweathermap.org/api).  
+Built with **Next.js**, **Tailwind**, **Radix UI**, and **Recharts** for a rich, animated data experience.
 
 ---
 
-## 🌐 Demo
+## 🚀 Live Demo
 
-The Weather App is deployed on **Vercel**. You can access the live demo here:
-
-[Demo](https://weather-app-bay-seven-21.vercel.app/)
+👉 [View Live App](https://weather-app-bay-seven-21.vercel.app/)
 
 ---
 
-## 🛠 Technologies
+## ✨ Features
 
-- **Framework:** [Next.js 15](https://nextjs.org/)
-- **UI Components:** Radix UI, Geist UI, TailwindCSS
-- **Forms:** React Hook Form + Zod
-- **Charts:** Recharts
-- **Animations:** Tailwind Animate + tw-animate-css
-- **Theme management:** next-themes
-- **Icons:** lucide-react
-- **Testing:** Jest + Testing Library
-- **TypeScript:** For static typing and code safety
+- 🔍 **City search** with instant weather data.
+- 🌡️ **Detailed weather info** (temp, humidity, wind, etc.).
+- 📊 **Data visualization** with Recharts.
+- 🌙 **Dark & light modes** with next-themes.
+- ⚡ **Form validation** using Zod + React Hook Form.
+- 💬 **Notifications** powered by Sonner.
+- 🎨 **Animated UI** with Tailwind Animate.
+
+---
+
+## 🧰 Tech Stack
+
+| Category           | Technology                           |
+| ------------------ | ------------------------------------- |
+| **Framework**      | Next.js 15                            |
+| **Language**       | TypeScript                            |
+| **UI Components**  | Radix UI, Geist UI, TailwindCSS        |
+| **Forms**          | React Hook Form + Zod                  |
+| **Charts**         | Recharts                              |
+| **Animations**     | Tailwind Animate + tw-animate-css      |
+| **Themes**         | next-themes                            |
+| **Icons**          | lucide-react                           |
+| **Testing**        | Jest + Testing Library                 |
+| **Deployment**     | Vercel                                 |
+
+---
+
