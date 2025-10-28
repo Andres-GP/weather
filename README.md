@@ -35,7 +35,7 @@ Built with **Next.js**, **Tailwind**, **Radix UI**, and **Recharts** for a rich,
 | **Animations**     | Tailwind Animate + tw-animate-css      |
 | **Themes**         | next-themes                            |
 | **Icons**          | lucide-react                           |
-| **Testing**        | Jest + Testing Library                 |
+| **Testing**        | Jest + React Testing Library                 |
 | **Deployment**     | Vercel                                 |
 
 ---
