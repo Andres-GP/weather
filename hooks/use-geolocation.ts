@@ -1,12 +1,12 @@
-"use client"
+"use client";
 
-import { useState, useEffect } from "react"
+import { useState, useEffect } from "react";
 
 interface GeolocationState {
-  latitude: number | null
-  longitude: number | null
-  error: string | null
-  loading: boolean
+  latitude: number | null;
+  longitude: number | null;
+  error: string | null;
+  loading: boolean;
 }
 
 export function useGeolocation() {
@@ -15,17 +15,19 @@ export function useGeolocation() {
     longitude: null,
     error: null,
     loading: true,
-  })
+  });
 
   useEffect(() => {
     if (!navigator.geolocation) {
-      setState({
-        latitude: null,
-        longitude: null,
-        error: "Geolocation is not supported by your browser",
-        loading: false,
-      })
-      return
+      setTimeout(() => {
+        setState({
+          latitude: null,
+          longitude: null,
+          error: "Geolocation is not supported by your browser",
+          loading: false,
+        });
+      }, 0);
+      return;
     }
 
     navigator.geolocation.getCurrentPosition(
@@ -35,7 +37,7 @@ export function useGeolocation() {
           longitude: position.coords.longitude,
           error: null,
           loading: false,
-        })
+        });
       },
       (error) => {
         setState({
@@ -43,10 +45,10 @@ export function useGeolocation() {
           longitude: null,
           error: error.message,
           loading: false,
-        })
-      },
-    )
-  }, [])
+        });
+      }
+    );
+  }, []);
 
-  return state
+  return state;
 }
